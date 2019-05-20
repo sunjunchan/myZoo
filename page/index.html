@@ -1,10 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:key="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>myZoo</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="./js/axios.js"></script>
 </head>
 <body>
-$END$
+    <header class="header">
+        <div class="container">
+            <a class="title">宠物领养</a>
+            <ul class="menu">
+                <li><a href="/">首页</a></li>
+                <li><a href="/slte.html">防骗助手</a></li>
+                <li><a href="/">关于</a></li>
+                <li><a href="/">留言</a></li>
+                <li><a href="/">百科</a></li>
+                <li><a href="/">领养须知</a></li>
+            </ul>
+            <div class="search_bar">
+                <input type="text" placeholder="输入关键词查找">
+                <button>搜索</button>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content_left">
+            <div class="every_day" id="every_day">
+                <span>今日分享</span>
+                <p v-html="getTitle"></p>
+                <p v-html="getContent"></p>
+            </div>
+            <div class="article_list" id="article_list">
+                <div class="article" v-for="(article, index) in articleList" :key="index">
+                    <div class="article_box">
+                        <img class="article_img" :src="article.img"/>
+                        <div class="article_right">
+                            <a href="/" class="article_title">{{ article.title }}</a>
+                            <p class="article_content">
+                                {{ article.content }}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article_foot">
+                        <p class="article_foot_p1">{{ article.name }}</p>
+                        <p class="article_foot_p2">发布于{{ article.data }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content_right">
+            <div class="right_moodule" id = "random_tags">
+                <div class="">推荐种类</div>
+                <a href="/" v-for="(tag,index) in tags" :key="index" v-bind:style="{color:randomColor(),fontsize:randomSize()}">{{tag}}</a>
+            </div>
+            <div class="right_moodule" id = "new_hot">
+                <div class="">最近热门</div>
+                <ul>
+                    <li v-for="temp in titleList">
+                        <a v-bind:href="temp.link">{{temp.title}}</a>
+                    </li>
+                    <!--<li><a href="/">小奶猫免费领养送玩具猫粮</a></li>-->
+                    <!--<li><a href="/">熊猫兔免费领养</a></li>-->
+                    <!--<li><a href="/">宠物龟免费领养送龟缸</a></li>-->
+                    <!--<li><a href="/">橙猫免费领养送玩具猫粮</a></li>-->
+                    <!--<li><a href="/">侏儒兔免费领养</a></li>-->
+                    <!--<li><a href="/">宠物蛇免费领养送笼子</a></li>-->
+                    <!--<li><a href="/">荷兰猪免费领养</a></li>-->
+                    <!--<li><a href="/">布偶猫免费领养送笼子</a></li>-->
+                </ul>
+            </div>
+            <div class="right_moodule" id="new_comments">
+                <div>最新评论</div>
+                <ul>
+                    <li v-for="comment in commentList">
+                        <div>
+                        <span>{{comment.name}}</span>
+                        <span class="pull_right">{{comment.date}}</span>
+                        </div>
+                        <p>{{comment.comment}}</p>
+                    </li>
+                   <!--<li>-->
+                       <!--<div>-->
+                           <!--<span>这里是可爱猿的动物园</span>-->
+                           <!--<span class="pull_right">这里是时间</span>-->
+                       <!--</div>-->
+                       <!--<p>可爱猿</p>-->
+                   <!--</li>-->
+                    <!--<li>-->
+                        <!--<div>-->
+                            <!--<span>这里是可爱猿的动物园</span>-->
+                            <!--<span class="pull_right">这里是时间</span>-->
+                        <!--</div>-->
+                        <!--<p>可爱猿</p>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<div>-->
+                            <!--<span>这里是可爱猿的动物园</span>-->
+                            <!--<span class="pull_right">这里是时间</span>-->
+                        <!--</div>-->
+                        <!--<p>可爱猿</p>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<div>-->
+                            <!--<span>这里是可爱猿的动物园</span>-->
+                            <!--<span class="pull_right">这里是时间</span>-->
+                        <!--</div>-->
+                        <!--<p>可爱猿</p>-->
+                    <!--</li>-->
+                </ul>
+            </div>
+            <div class="right_moodule">
+                <div class="">友情链接</div>
+                <span><a href="/">aaa</a></span>
+                <span><a href="/">aaa</a></span>
+                <span><a href="/">aaa</a></span>
+                <span><a href="/">aaa</a></span>
+                <span><a href="/">aaa</a></span>
+                <span><a href="/">aaa</a></span>
+                <span><a href="/">aaa</a></span>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <ul>
+            <li>c/c++</li>
+            <li>c/c++</li>
+            <li>c/c++</li>
+            <li>c/c++</li>
+            <li>c/c++</li>
+            <li>c/c++</li>
+            <li>c/c++</li>
+        </ul>
+        <p>Copyright @ 2010-2017dfasdfsdf</p>
+    </footer>
+    <script src="./js/index.js"></script>
+    <script src="./js/base.js"></script>
 </body>
 </html>

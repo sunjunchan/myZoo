@@ -1,0 +1,101 @@
+.every_day{
+    background: #fff;
+    width: 96%;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 3px 4px 3px #888;
+    padding: 10px 15px;
+}
+.every_day:before{
+    content: '';
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent pink;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    display: block;
+    top: 13px;
+    left: 90px;
+}
+.article_list{
+    width: 100%;
+    border-radius: 5px;
+    /*margin-top: 15px;*/
+}
+.article{
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px #888;
+    overflow: hidden;
+    text-align: left;
+    margin-top: 15px;
+}
+.article_img{
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+.article_right{
+    height: 150px;
+}
+.article_title{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #13102b;
+    padding: 20px 10px 5px 10px;
+    text-align: left;
+}
+.article_title:hover{
+    color: pink;
+}
+.article_content{
+    font-size: 14px;
+    color: #13102b;
+    padding: 0px 10px 20px 10px;
+    text-align: left;
+    /*word-wrap: break-word;*/
+    /*word-break: break-all;*/
+    /*position: relative;*/
+    /*line-height: 20px;*/
+    /*height: 100px;*/
+    /* 不换行 */
+    /*white-space:nowrap;*/
+    /* 溢出部分隐藏 */
+    /*overflow:hidden;*/
+    /* ... */
+    /*text-overflow:ellipsis;*/
+}
+/*.article_content::after{*/
+    /*content:"...";*/
+    /*font-weight:bold;*/
+    /*position:absolute;*/
+    /*bottom:0;*/
+    /*right:0;*/
+    /*padding-left:20px;*/
+    /*background: -webkit-linear-gradient(left, transparent, #fff 62%);*/
+    /*background: -o-linear-gradient(right, transparent, #fff 62%);*/
+    /*background: -moz-linear-gradient(right, transparent, #fff 62%);*/
+    /*background: linear-gradient(to right, transparent, #fff 62%);*/
+/*}*/
+.article_foot{
+    position: relative;
+    height: 24px;
+    color: #eee;
+    background: linear-gradient(to left,rgba(244, 157, 45, 0.678) , rgba(250, 47, 82, 0.678));
+    width: 100%;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+.article_foot_p1{
+    position: absolute;
+    left：0px;
+}
+.article_foot_p2{
+    position: absolute;
+    right: 45px;
+
+}
