@@ -29,6 +29,8 @@ var articleList = new Vue({
     data:{
         page:1,
         pageSize: 5,
+        count : 100,
+        pageNumList:[],
         articleList:[{
             name:"小猿",
             title:"一个月小橙猫，颜值高，求包养",
@@ -39,59 +41,74 @@ var articleList = new Vue({
             tags:"test1 test2",
             id:"1",
             link:""
-        },
-            {
-                name:"小猿",
-                title:"一个月小黑猫，颜值高，求包养",
-                img:"img/IMG_20190510_204521.jpg",
-                content:" 长毛小帅哥，无辜的大眼睛，性格比较胆小，只喜欢猫粮，所以不用担心和你抢肉吃，哈哈。想找个有耐心责任心的铲屎官",
-                data: "2019-05-11",
-                views:"101",
-                tags:"test1 test2",
-                id:"1",
-                link:""
-            },
-            {
-                name:"小猿",
-                title:"一个月小奶猫，颜值高，求包养",
-                img:"img/IMG_20190510_204647.jpg",
-                content:" 长毛小帅哥，无辜的大眼睛，性格比较胆小，只喜欢猫粮，所以不用担心和你抢肉吃，哈哈。想找个有耐心责任心的铲屎官",
-                data: "2019-05-11",
-                views:"101",
-                tags:"test1 test2",
-                id:"1",
-                link:""
-            },
-            {
-                name:"小猿",
-                title:"一个月小花猫，颜值高，求包养",
-                img:"img/IMG_20190510_204739.jpg",
-                content:" 长毛小帅哥，无辜的大眼睛，性格比较胆小，只喜欢猫粮，所以不用担心和你抢肉吃，哈哈。想找个有耐心责任心的铲屎官",
-                data: "2019-05-11",
-                views:"101",
-                tags:"test1 test2",
-                id:"1",
-                link:""
-            }
+        }
         ]
     },
     // 页面加载
     computed: {
+        jumpTo: function() {
+            return function (page) {
+                this.getPate(page, this.pageSize);
+            }
+        },
         getPate: function(){
             return function(page,pageSize){
                 axios({//发请求
                     method: "get",
                     url:"/queryBlogByPage?page=" + (page - 1) + "&pageSize=" + pageSize
                 }).then(function(resp){
-                    console.log(resp);
-                    var result = //返回的数据转换成对象
-                    for(){
-
+                    var result = resp.data.data;//返回的数据转换成对象
+                    var list = []
+                    for(var i = 0;i < result.length;i++){
+                        var temp = {};
+                        temp.title = result[i].title;
+                        temp.content = result[i].content;
+                        temp.date = result[i].ctime;
+                        temp.views = result[i].views;
+                        temp.tags = result[i].tags;
+                        temp.id = result[i].id;
+                        temp.link = "/blog_detail.html?bid=" + result[i].id;
+                        list.push(temp);
                     }
+                    articleList.articleList = list;
+                    articleList.page = page
                 }).catch(function(resp){
                     console.log("请求错误");
                 });
+
+                axios({
+                    method: "get",
+                    url: "/queryBlogCount" +
+                        "" +
+                        ""
+                }).then(function(resp) {
+                    articleList.count = resp.data.data[0].count;
+                    articleList.generatePageTool;
+                });
             }
+        },
+        generatePageTool: function () {
+            var nowPage = this.page;
+            var pageSize = this.pageSize;
+            var totalCount = this.count;
+            var result = [];
+            result.push({text:"<<", page: 1});
+            if (nowPage > 2) {
+                result.push({text: nowPage - 2, page:nowPage - 2});
+            }
+            if (nowPage > 1) {
+                result.push({text: nowPage - 1, page:nowPage - 1});
+            }
+            result.push({text: nowPage, page:nowPage});
+            if (nowPage + 1 <= (totalCount + pageSize - 1) / pageSize) {
+                result.push({text:nowPage + 1, page: nowPage + 1});
+            }
+            if (nowPage + 2 <= (totalCount + pageSize - 1) / pageSize) {
+                result.push({text:nowPage + 2, page: nowPage + 2});
+            }
+            result.push({text:">>", page: parseInt((totalCount + pageSize - 1) / pageSize)});
+            this.pageNumList = result;
+            return result;
         }
     },
     created:function(){

@@ -9,13 +9,11 @@ var randomTeas = new Vue({
                 var red = Math.random() * 255;
                 var green = Math.random() * 255;
                 var blue = Math.random() * 255;
-                console.log(1)
                 return "rbg(245,251,254)";
                 // "+ red +","+ green +","+ blue +"
             }
         },
         randomSize:function(){
-            console.log(2)
             return function(){
                 var size = (Math.random() * 20 + 12) + 'px' //保证最小值
                 return size

@@ -57,6 +57,7 @@ function queryBlogCount(success) {
     connection.query(querySql, params, function (error, result) {
         if (error == null) {
             success(result);
+            console.log(result)
         } else {
             console.log(error);
         }

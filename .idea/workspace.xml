@@ -2,35 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e388adf-48ba-4456-ad42-eb43219cf2d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/blog_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/cs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/css/blog_detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/js/blog_detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/MyUtil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao/BlogDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/BlogDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/DBUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/DBUtil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/EveryDayDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/EveryDayDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/TagBlogMappingDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/TagBlogMappingDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/TagsDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/TagsDao.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loder.js" beforeDir="false" afterPath="$PROJECT_DIR$/loder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/page/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/page/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/css/guestbool.css" beforeDir="false" afterPath="$PROJECT_DIR$/page/css/guestbool.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/page/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/css/slte.css" beforeDir="false" afterPath="$PROJECT_DIR$/page/css/slte.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/edit_blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/edit_blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/edit_every_day.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/edit_every_day.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/guestbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/guestbook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/img.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/img.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/js/base.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/js/jr.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/js/jr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/server.conf" beforeDir="false" afterPath="$PROJECT_DIR$/page/server.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/slte.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/slte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.conf" beforeDir="false" afterPath="$PROJECT_DIR$/server.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/ResUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/ResUtil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/TimeUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/TimeUtil.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/BlogController.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/BlogController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/EveryDayController.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/EveryDayController.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dao/BlogDao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="-1064">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -55,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/BlogController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="-665">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -64,35 +50,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+            <state relative-caret-position="190">
+              <caret line="73" column="43" lean-forward="true" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/page/js/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="209">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/blog_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/css/blog_detail.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
+        <entry file="file://$PROJECT_DIR$/page/js/blog_detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="54">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao/TagBlogMappingDao.js">
+        <entry file="file://$PROJECT_DIR$/page/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="157">
+              <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+              <folding>
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="208" column="1" lean-forward="true" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -100,39 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao/TagsDao.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-608">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/EveryDayController.js">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/edit_blog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
-                <element signature="e#77#84#1" expanded="true" />
-              </folding>
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -142,8 +127,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -153,6 +138,7 @@
       <find>articleList</find>
       <find>About</find>
       <find>path</find>
+      <find>queryByTagCount</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/page/css/base.css" />
         <option value="$PROJECT_DIR$/page/slter.html" />
         <option value="$PROJECT_DIR$/page/js/jr.js" />
         <option value="$PROJECT_DIR$/page/slte.html" />
@@ -172,7 +157,6 @@
         <option value="$PROJECT_DIR$/page/css/guestbool.css" />
         <option value="$PROJECT_DIR$/page/guestbook.html" />
         <option value="$PROJECT_DIR$/page/css/index.css" />
-        <option value="$PROJECT_DIR$/page/js/base.js" />
         <option value="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/index.html" />
         <option value="$PROJECT_DIR$/page/loader.js" />
         <option value="$PROJECT_DIR$/page/server.conf" />
@@ -184,25 +168,33 @@
         <option value="$PROJECT_DIR$/util/ResUtil.js" />
         <option value="$PROJECT_DIR$/dao/DBUtil.js" />
         <option value="$PROJECT_DIR$/page/edit_every_day.html" />
-        <option value="$PROJECT_DIR$/page/index.html" />
         <option value="$PROJECT_DIR$/dao/EveryDayDao.js" />
         <option value="$PROJECT_DIR$/dao/tasDao.js" />
         <option value="$PROJECT_DIR$/dao/TagsDao.js" />
         <option value="$PROJECT_DIR$/dao/TagBlogMappingDao.js" />
         <option value="$PROJECT_DIR$/page/edit_blog.html" />
-        <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/dao/BlogDao.js" />
-        <option value="$PROJECT_DIR$/web/BlogController.js" />
         <option value="$PROJECT_DIR$/web/EveryDayController.js" />
+        <option value="$PROJECT_DIR$/web/a.js" />
+        <option value="$PROJECT_DIR$/page/cs.html" />
+        <option value="$PROJECT_DIR$/util/MyUtil.js" />
+        <option value="$PROJECT_DIR$/page/css/base.css" />
+        <option value="$PROJECT_DIR$/dao/BlogDao.js" />
         <option value="$PROJECT_DIR$/page/js/index.js" />
+        <option value="$PROJECT_DIR$/page/js/base.js" />
+        <option value="$PROJECT_DIR$/page/css/blog_detail.css" />
+        <option value="$PROJECT_DIR$/page/index.html" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/web/BlogController.js" />
+        <option value="$PROJECT_DIR$/page/blog_detail.html" />
+        <option value="$PROJECT_DIR$/page/js/blog_detail.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="442" />
-    <option name="y" value="7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="778" />
+    <option name="y" value="16" />
     <option name="width" value="1235" />
-    <option name="height" value="982" />
+    <option name="height" value="983" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -210,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,11 +220,26 @@
               <item name="myZoo" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myZoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myZoo" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myZoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myZoo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myZoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myZoo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,6 +274,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="cs.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myZoo/page/cs.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myZoo/page/bootstrap-wysiwyg-master/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -284,6 +295,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.index.js" />
+        <item itemvalue="JavaScript Debug.cs.html" />
         <item itemvalue="Node.js.config.js (1)" />
         <item itemvalue="Node.js.config.js" />
         <item itemvalue="JavaScript Debug.index.html" />
@@ -310,12 +322,13 @@
       <workItem from="1558138711324" duration="3424000" />
       <workItem from="1558150804273" duration="11571000" />
       <workItem from="1558221149906" duration="15308000" />
-      <workItem from="1558313471979" duration="21768000" />
+      <workItem from="1558313471979" duration="25222000" />
+      <workItem from="1558397757990" duration="10956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106462000" />
+    <option name="totallyTimeSpent" value="120872000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,22 +340,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="752" y="25" width="988" height="785" extended-state="0" />
+    <frame x="623" y="13" width="988" height="786" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24789916" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.24789916" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34303215" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34250763" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297546" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32822084" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33594978" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32771823" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3353752" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -490,20 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="105" selection-start-line="105" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/loader.js" />
     <entry file="file://$PROJECT_DIR$/.editorconfig" />
     <entry file="file://$PROJECT_DIR$/page/config.js" />
@@ -553,16 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/TimeUtil.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -570,16 +559,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/tasDao.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/tasDao.js" />
     <entry file="file://$PROJECT_DIR$/dao/EveryDayDao.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -615,42 +595,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/edit_blog.html">
+    <entry file="file://$PROJECT_DIR$/web/a.js" />
+    <entry file="file://$PROJECT_DIR$/page/cs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="e#77#84#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="77">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/MyUtil.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/TagsDao.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/BlogDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/BlogController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -661,24 +634,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/js/index.js">
+    <entry file="file://$PROJECT_DIR$/server.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+        <state relative-caret-position="19">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/page/edit_blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="247">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="e#77#84#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/page/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="208" column="1" lean-forward="true" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/css/blog_detail.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="73" column="43" lean-forward="true" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/BlogDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1064">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/BlogController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/blog_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/js/blog_detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
         </state>
       </provider>
     </entry>

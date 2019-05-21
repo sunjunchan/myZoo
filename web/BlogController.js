@@ -5,6 +5,24 @@ var timeUtil = require("../util/TimeUtil");
 var respUtil = require("../util/ResUtil");
 var url = require("url");
 var path = new Map();
+function queryBlogById(request, response) {
+    var params = url.parse(request.url, true).query;
+    blogDao.queryBlogById(parseInt(params.bid), function(result) {
+        response.writeHead(200);
+        response.write(respUtil.writeResult("success", "查询成功", result));
+        response.end();
+        blogDao.addViews(parseInt(params.bid), function (result) {});
+    });
+}
+path.set("/queryBlogById", queryBlogById);
+function queryBlogCount(request, response) {
+    blogDao.queryBlogCount(function (result) {
+        response.writeHead(200);
+        response.write(respUtil.writeResult("success", "查询成功", result));
+        response.end();
+    });
+}
+path.set("/queryBlogCount", queryBlogCount);
 //查文章
 function queryBlogByPage(request, response) {
     var params = url.parse(request.url, true).query;
@@ -12,7 +30,7 @@ function queryBlogByPage(request, response) {
         for (var i = 0 ; i < result.length ; i ++) {
             result[i].content = result[i].content.replace(/<img[\w\W]*">/, "");
             result[i].content = result[i].content.replace(/<[\w\W]{1,5}>/g, "");
-            result[i].content = result[i].content.substring(0, 300);
+            result[i].content = result[i].content.substring(0, 300);  //截断,最多三百
         }
         response.writeHead(200);
         response.write(respUtil.writeResult("success", "查询成功", result));
@@ -43,7 +61,6 @@ path.set("/editBlog", editBlog);
 //查询是否存在
 function queryTag(tag, blogId) {
     tagsDao.queyrTag(tag, function (result) {
-        console.log()
         if (result == null || result.length == 0) {
             insertTag(tag, blogId); //没有标签插入标签
         } else {
@@ -54,7 +71,6 @@ function queryTag(tag, blogId) {
 
 function queryTag(tag, blogId) {
     tagsDao.queyrTag(tag, function (result) {
-        console.log()
         if (result == null || result.length == 0) {
             insertTag(tag, blogId);
         } else {
